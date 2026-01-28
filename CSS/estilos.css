@@ -1,0 +1,273 @@
+main {
+    height: 190vh;
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+}
+
+section{
+ display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+   
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+}
+
+.blanco{
+    color: white;
+}
+
+.a.oscuro{
+    color: #041354;
+}
+
+#s1,
+#s10,
+#s24 {
+    background-color: #041354;
+}
+
+#s7,
+#s19,
+#s22,
+#s11 {
+    background-color: #4c7af3;
+}
+
+#s18,
+#s28,
+#s4,
+#s16 {
+    background-color: #51e6d6;
+}
+
+#s2,
+#s26,
+#s14,
+#s30 {
+    background-color: #ededed;
+}
+
+#s13,
+#s21,
+#s27,
+#s9 {
+    background-color: #d4dae7;
+}
+
+#s3,
+#s17,
+#s20 {
+    background-color: #ff834c;
+}
+
+
+
+#s5 {
+    
+    background-image: url(../IMG/materialEJGrid/gallery-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s6 {
+    background-image: url(../IMG/materialEJGrid/gallery-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s8 {
+    
+    background-image: url(../IMG/materialEJGrid/gallery-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+#s12 {
+    background-image: url(../IMG/materialEJGrid/gallery-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#s15 {
+    background-image: url(../IMG/materialEJGrid/gallery-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s23 {
+
+
+    background-image: url(../IMG/materialEJGrid/gallery-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#s25 {
+   
+    background-image: url(../IMG/materialEJGrid/gallery-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s29 {
+    background-image: url(../IMG/materialEJGrid/gallery-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+
+    main {
+        height: 100vh;
+        grid-template-columns: repeat(8, 1fr);
+
+
+    }
+
+    #s1,
+    #s10,
+    #s24 {
+        background-color: #041354;
+    }
+
+    #s7,
+    #s19,
+    #s22,
+    #s11 {
+        background-color: #4c7af3;
+    }
+
+    #s18,
+    #s28,
+    #s4,
+    #s16 {
+        background-color: #51e6d6;
+    }
+
+    #s2,
+    #s26,
+    #s14,
+    #s30 {
+        background-color: #ededed;
+    }
+
+    #s13,
+    #s21,
+    #s27,
+    #s9 {
+        background-color: #d4dae7;
+    }
+
+    #s3,
+    #s17,
+    #s20 {
+        background-color: #ff834c;
+    }
+
+    #s3 {
+        grid-column: 3/5;
+    }
+
+    #s5 {
+        grid-column: 6/8;
+        background-image: url(../IMG/materialEJGrid/gallery-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s6 {
+        background-image: url(../IMG/materialEJGrid/gallery-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s8 {
+        grid-column: 2/4;
+        grid-row: 2/4;
+        background-image: url(../IMG/materialEJGrid/gallery-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+
+
+    #s11 {
+        grid-column: 6/8;
+    }
+
+    #s12 {
+        background-image: url(../IMG/materialEJGrid/gallery-4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s14 {
+        grid-column: 4/6;
+    }
+
+    #s15 {
+        background-image: url(../IMG/materialEJGrid/gallery-5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s23 {
+        grid-column: 6/7;
+        grid-row: 4/6;
+
+        background-image: url(../IMG/materialEJGrid/gallery-6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s24 {
+        grid-column: 7/8;
+        grid-row: 4/6;
+    }
+
+    #s25 {
+        grid-column: 8/9;
+        grid-row: 4/6;
+        background-image: url(../IMG/materialEJGrid/gallery-7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #s29 {
+        background-image: url(../IMG/materialEJGrid/gallery-8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
